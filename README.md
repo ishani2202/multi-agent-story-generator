@@ -49,7 +49,7 @@ This project demonstrates:
                 │ approved       │ needs revision
                 ▼                ▼
        ┌──────────────────┐   ┌────────────────────────────┐
-       │  FINAL STORY     │   │        🔧 REVISER AGENT    │
+       │  FINAL STORY     │   │        🔧 REVISER AGENT     │
        │  (no changes)    │   │  • Rewrites story based on  │
        └───────┬──────────┘   │    judge feedback           │
                │              └───────┬─────────────────────┘
@@ -57,7 +57,7 @@ This project demonstrates:
                └──────────────┬───────┘
                               ▼
                 ┌─────────────────────────────────────────┐
-                │           🌟 MORAL GENERATOR            │
+                │           🌟 MORAL GENERATOR             │
                 │   • Creates one-sentence moral           │
                 └───────────────┬──────────────────────────┘
                                 │
