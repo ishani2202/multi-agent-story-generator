@@ -1,7 +1,8 @@
 # 🌙 Multi-Agent Bedtime Story Generator  
 A safe, gentle, multi-agent storytelling system powered by GPT-3.5 Turbo.
 
-This project generates bedtime stories for children ages 5–10 using a **multi-agent LLM pipeline** consisting of a **Storyteller**, **Judge**, **Reviser**, and **Moral Generator**. The system ensures stories remain emotionally safe, age-appropriate, and structurally coherent while offering user-controlled **tone** and **story length** options.
+This project generates bedtime stories for children ages 5–10 using a **multi-agent LLM pipeline** consisting of a **Storyteller**, **Judge**, **Reviser**, and **Moral Generator**.  
+The system ensures stories remain emotionally safe, age-appropriate, and structurally coherent while offering user-controlled **tone** and **story length** options.
 
 ---
 
@@ -9,17 +10,18 @@ This project generates bedtime stories for children ages 5–10 using a **multi-
 
 This project demonstrates:
 
-- Multi-agent prompting with well-defined roles  
-- Safety-aware and child-centered content generation  
-- Structured agent interaction and revision loops  
-- Clean, modular Python design  
-- Optional tone and length customization for storytelling  
-- Extensibility toward multimodal and ML-driven improvements  
+- 🧠 Multi-agent prompting  
+- 🔒 Safety-aware content generation  
+- 🔁 Iterative revision loop  
+- 🎨 User-controlled tone + length  
+- 🧩 Clean, modular Python architecture  
+- 🚀 Extensible ML-friendly design  
 
 ---
+
 ## 🧩 System Architecture (ASCII Diagram)
 
-'''
+```text
 ┌──────────────────────────────────────────────────────────┐
 │                        USER INPUT                         │
 │  • Story Request                                           │
@@ -57,7 +59,7 @@ This project demonstrates:
                 ┌──────────────────────────────────────────┐
                 │           🌟 MORAL GENERATOR             │
                 │   • Creates one-sentence moral           │
-                └──────────────┬──────────────────────────┘
+                └───────────────┬──────────────────────────┘
                                 │
                                 ▼
                 ┌──────────────────────────────────────────┐
@@ -66,7 +68,6 @@ This project demonstrates:
                 │   • Story Moral                           │
                 └──────────────────────────────────────────┘
 
-'''
 ## 🚀 Features
 
 ### 📝 Storyteller Agent  
