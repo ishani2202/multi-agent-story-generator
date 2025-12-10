@@ -17,6 +17,9 @@ This project demonstrates:
 - Extensibility toward multimodal and ML-driven improvements  
 
 ---
+## 🧩 System Architecture (ASCII Diagram)
+
+'''
 ┌──────────────────────────────────────────────────────────┐
 │                        USER INPUT                         │
 │  • Story Request                                           │
@@ -63,7 +66,7 @@ This project demonstrates:
                 │   • Story Moral                           │
                 └──────────────────────────────────────────┘
 
-
+'''
 ## 🚀 Features
 
 ### 📝 Storyteller Agent  
