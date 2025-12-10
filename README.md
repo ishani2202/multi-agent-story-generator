@@ -1,4 +1,4 @@
-# 🌙 Multi-Agent Bedtime Story Generator  
+# Multi-Agent Bedtime Story Generator  
 A safe, gentle, multi-agent storytelling system powered by GPT-3.5 Turbo.
 
 This project generates bedtime stories for children ages 5–10 using a **multi-agent LLM pipeline** consisting of a **Storyteller**, **Judge**, **Reviser**, and **Moral Generator**.  
@@ -6,7 +6,7 @@ The system ensures stories remain emotionally safe, age-appropriate, and structu
 
 ---
 
-## ✨ Project Overview
+## Project Overview
 
 This project demonstrates:
 
@@ -19,7 +19,7 @@ This project demonstrates:
 
 ---
 
-## 🧩 System Architecture (ASCII Diagram)
+## System Architecture (ASCII Diagram)
 
 ```text
 ┌──────────────────────────────────────────────────────────┐
@@ -68,9 +68,9 @@ This project demonstrates:
                 │   • Story Moral                           │
                 └──────────────────────────────────────────┘
 ```
-## 🚀 Features
+## Features
 
-### 📝 Storyteller Agent  
+### Storyteller Agent  
 Creates the first draft of the bedtime story using:
 - A gentle tone  
 - Clear story arc (Beginning → Middle → End)  
@@ -78,7 +78,7 @@ Creates the first draft of the bedtime story using:
 - Optional **tone** (cozy, magical, silly, sleepy, exciting…)  
 - Optional **length** (short, medium, long)  
 
-### 🧠 Judge Agent  
+### Judge Agent  
 Evaluates the draft for:
 - Emotional safety  
 - Age suitability  
@@ -99,9 +99,7 @@ Produces a one-sentence moral aligned with the final story.
 
 ---
 
-## 📦 Installation
 
-Clone the repository:
 
 ```bash
 git clone https://github.com/<your-username>/multi-agent-bedtime-story-generator.git
